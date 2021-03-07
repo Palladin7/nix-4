@@ -2,7 +2,7 @@
 `
 setantenv.bat
 `
-### Clean, Compile, Jar and Run
+### Clean, Compile, Jar and Run ###
 `
 ant clean compile jar run
 `
