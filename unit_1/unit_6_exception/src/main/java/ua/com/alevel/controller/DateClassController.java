@@ -48,12 +48,14 @@ public class DateClassController {
             }
 
             // Changing date format
-            System.out.print("Date format 4 : ");
+
+            System.out.print("\nCurrent date format 4 : ");
             date1.print();
 
             date1.setDateFormat();
             System.out.print("New date format: ");
             date1.print();
+            System.out.println("----------------------------------------");
 
             // Adding days
             System.out.print("Enter number of days to add: ");
@@ -68,6 +70,7 @@ public class DateClassController {
             date1.print();
 
             // What date is bigger
+            System.out.println("----------------------------------------");
             System.out.println("\nIs date1 larger than date2?: ");
             date1.print();
             date2.print();
@@ -77,6 +80,7 @@ public class DateClassController {
             date1.difference(date2);
 
             // Current date
+            System.out.println("----------------------------------------");
             System.out.print("Current date: ");
             DateClass dateClass = new DateClass();
             dateClass.print();
