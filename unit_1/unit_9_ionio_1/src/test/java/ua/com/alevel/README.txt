@@ -1,0 +1,1 @@
+For tests to work correctly, delete .csv files after each test
