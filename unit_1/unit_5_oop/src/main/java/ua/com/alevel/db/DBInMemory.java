@@ -115,7 +115,7 @@ public class DBInMemory {
         current.setLastName(author.getLastName());
         current.setBooks(author.getBooks());
 
-        logger.info("Entering the updateAuthor method");
+        logger.info("Exiting the updateAuthor method");
     }
     // ----------------Delete----------------
     public void deleteBook(int id) {
