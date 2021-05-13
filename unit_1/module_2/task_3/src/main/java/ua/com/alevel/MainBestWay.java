@@ -16,11 +16,11 @@ public class MainBestWay {
         String[] names = {"Seattle", "New York", "San Francisco", "Chicago", "Dallas", "Miami"};
 
         // Adjacency list representation of the connected edges
-        List<List<Node>> adj = new ArrayList<List<Node>>();
+        List<List<Node>> adj = new ArrayList<>();
 
         // Initialize list for every node
         for (int i = 0; i < V; i++) {
-            List<Node> item = new ArrayList<Node>();
+            List<Node> item = new ArrayList<>();
             adj.add(item);
         }
 
