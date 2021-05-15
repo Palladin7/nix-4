@@ -1,0 +1,6 @@
+The shortest path from:
+Seattle to Seattle is 0
+Seattle to New York is 805
+Seattle to San Francisco is 604
+Seattle to Chicago is 507
+Seattle to Dallas is 311
