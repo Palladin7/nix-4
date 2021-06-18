@@ -1,5 +1,0 @@
-dog
-cat
-yellow
-hello
-green
