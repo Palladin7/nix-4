@@ -6,7 +6,7 @@ import java.io.IOException;
 
 public class FileOutput extends Thread {
 
-    ConsoleReader consoleReader = new ConsoleReader();
+    private final ConsoleReader consoleReader = new ConsoleReader();
 
     @Override
     public void run() {
